@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: block;
+    background-color: #89e5f0;
+  }
+   
+  h1 {
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: "Lucida Console";
+    font-size: 80px;
+  }
+  
+  .desc {
+    font-family: "Lucida Console";
+    font-size: 32px;
+  }
+  
+  .container {
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  input {
+    width: 500px;
+    height: 36px;
+    font-size: 32px;
+    margin-right: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+  
+  button {
+    width: 200px;
+    height: 36px;
+  }
+  
+  .hidden {
+    display: none;
+  }
